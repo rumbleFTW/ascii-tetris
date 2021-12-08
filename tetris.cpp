@@ -113,7 +113,7 @@ void spawn()                                                                    
             blockArray[y][x] = shapes[type][y][x];                                  //random tetronimo
         }
     }
-    tetrominoX = rand()%(WIDTH-4)+1;
+    tetrominoX = (rand()%(WIDTH-5))+1;
     tetrominoY = 1;
     for(int i = 0; i<rand()%2+1; i++)                                               //random rotation
     {
